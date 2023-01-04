@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWorkSeventeen
 {
-    internal class Calculator
+    internal interface ICalculator
     {
     }
 }
