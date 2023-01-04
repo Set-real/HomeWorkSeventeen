@@ -8,8 +8,13 @@ namespace HomeWorkSeventeen
 {
     public class SimpleBankAccount : ICalculator
     {
-        public void CalculateInterest(Account account)
+        public void CalculateInterest()
         {
+            //Реализация бизнесс логики зарплатного счёта
+            Console.WriteLine("Реализация зарплатного счёта");
+            
+            Account account = new Account();
+
             if (account.Type == "Зарплатный")
             {
                 // расчет процентной ставк зарплатного аккаунта по правилам банка

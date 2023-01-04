@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HomeWorkSeventeen
 {
-    internal interface ICalculator
+    public interface ICalculator
     {
+        // Реализовываб общий интерфейс для всех аккаунтов с методом CalculateInterest()
+        void CalculateInterest();
     }
 }

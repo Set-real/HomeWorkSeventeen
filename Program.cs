@@ -10,6 +10,13 @@ namespace HomeWorkSeventeen
     {
         static void Main(string[] args)
         {
+            var resalt = new RenderedСlass();
+
+            resalt.DistributionMethod(new SalaryBankAccount());
+
+            Console.WriteLine();
+
+            resalt.DistributionMethod(new SimpleBankAccount());
         }
     }
 }
